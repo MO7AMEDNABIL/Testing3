@@ -16,7 +16,7 @@ Feature: Automation Exercise Website Tests
 
   Scenario: Login User with correct email and password
     When I click on the login link
-    And I enter email "todelete@gmail.com" and password "123"
+    And I enter email "todelete1@gmail.com" and password "123"
     And I click the login button
     And I delete my account
     And I continue after account deletion
